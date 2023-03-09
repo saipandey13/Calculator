@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+</head>
+<style>
+    .container {
+        /* border: 1px solid black; */
+        width: 325px;
+        padding: 12px;
+        margin: 12px auto;
+        border-radius: 34px;
+        background-color:whitesmoke;
+        box-shadow: 2px 3px 4px 5px #45433f;
+    }
+
+    .container h2 {
+        font-size: 32px;
+        text-decoration: underline;
+    }
+
+    input {
+        width: 200px;
+        padding: 6px;
+        margin: 9px;
+        text-align: center;
+        background-color: whitesmoke;
+        border: 1px solid black;
+        border-radius: 15px;
+        color: black;
+    }
+
+    button {
+        border-radius: 7px;
+        width: 39px;
+        padding: 5px;
+        font-size: 16px;
+        margin: 6px;
+        text-align: center;
+        border: none;
+        outline: none;
+        transition: all 1s;
+        background-color: rbg(255, 255, 255, 0.75);
+        font-weight: 300;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .container-2 {
+        margin-left: 33px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2> Welcome to Calculator </h2>
+
+        <div class="container-2">
+            <div class="row">
+                <input id="text" class="input" type="text" />
+            </div>
+            <div class="row">
+                <button class="button">C</button>
+                <button class="button">%</button>
+                <button class="button">del</button>
+                <button class="button">M-</button>
+            </div>
+            <div class="row">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">*</button>
+            </div>
+            <div class="row">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">/</button>
+            </div>
+            <div class="row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">+</button>
+            </div>
+            <div class="row">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button">=</button>
+                <button class="button">-</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
